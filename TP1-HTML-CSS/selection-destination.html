@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Selection pays de destination</title>
+<style>
+  select {
+    width: 200px;
+  }
+  optgroup {
+    font-weight: bold; 
+  }
+  option {
+    padding: 2px;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+  <label for="country-select">Veuillez choisir un pays de destination :</label>
+  <select id="country-select" name="country" multiple>
+    <optgroup label="Europe de l'Ouest">
+      <option value="allemagne">Allemagne</option>
+      <option value="france">France</option>
+      <option value="italie">Italie</option>
+    </optgroup>
+    <optgroup label="Europe de l'Est">
+      <option value="roumanie">Roumanie</option>
+      <option value="ukraine">Ukraine</option>
+    </optgroup>
+    <optgroup label="Asie">
+      <option value="japon">Japon</option>
+      <option value="vietnam">Vietnam</option>
+    </optgroup>
+    <optgroup label="Afrique">
+      <option value="afrique_du_sud">Afrique du Sud</option>
+      <option value="cote_d'ivoire">Côte d'Ivoire</option>
+    </optgroup>
+  </select>
+</body>
+</html>

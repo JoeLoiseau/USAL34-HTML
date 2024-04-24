@@ -1,0 +1,46 @@
+## Exercice 1 : rappels
+Quelques questions pour tester votre mémoire avant de commencer à écrire du HTML : 
+1) Quelles sont les balises qui sont indispensables pour une page HTML ?
+2) Quel genre de données retrouve-t-on dans la balise `head`? Et dans la balise `body`?
+3) On a parlé de la balise `title`, où est-ce qu'on retrouvera ce titre dans le rendu de la page HTML dans le navigateur ?
+4) Donner le nom des quatre partie de cet extrait HTML :
+![[html-elem.excalidraw]]
+5) Quels sont les deux types de listes qu'on peut écrire en HTML ?
+6) Quelle est la particularité de la ligne suivante ?
+```html
+<img src="mon-image.png" alt="Mon image préférée" />
+```
+
+1) Balises indispensables pour une page HTML :
+   - `<!DOCTYPE html>` : Indique le type de document HTML (par exemple HTML5).
+   - `<html>` : Balise racine qui englobe tout le contenu de la page web.
+   - `<head>` : Contient les métadonnées et les liens vers des scripts ou des feuilles de style.
+   - `<body>` : Contient le contenu visible de la page.
+
+2) Contenu des balises `head` et `body` :
+   - `<head>` : On y trouve des éléments comme `<title>`, des balises `<meta>` pour les métadonnées, `<link>` pour les feuilles de style CSS, et `<script>` pour les scripts JavaScript. Ces éléments influencent le traitement de la page mais ne sont généralement pas visibles directement par l'utilisateur.
+   - `<body>` : Contient tout ce qui est visible sur la page, comme les textes, les images, les vidéos, les liens, les boutons, les formulaires, etc.
+
+3) Balise `title` et son affichage dans le navigateur :
+   - Le contenu de la balise `<title>` apparaît dans la barre de titre du navigateur ainsi que dans l'onglet où la page est ouverte. C'est important pour l'expérience utilisateur et le référencement.
+
+4) Nom des quatre parties de l'extrait HTML :
+
+1. <p> - C'est la balise d'ouverture pour un élément de paragraphe. Elle indique le début d'un paragraphe.
+
+2. id="1" - Il s'agit d'un attribut `id` qui est utilisé pour identifier de manière unique l'élément dans la page. La valeur "1" est l'identifiant attribué à cet élément particulier.
+
+class="truc" - Cet attribut `class` est utilisé pour spécifier une classe de style pour l'élément. La valeur "truc" peut être utilisée dans une feuille de style CSS pour appliquer des styles spécifiques à tous les éléments portant cette classe.
+
+4. </p> - C'est la balise de fermeture pour l'élément de paragraphe. Elle indique la fin d'un paragraphe.
+
+Entre les balises d'ouverture `<p>` et de fermeture `</p>`, il y a le texte "machin", qui est le contenu du paragraphe.
+
+5) Deux types de listes en HTML :
+   - `<ul>` (Unordered List) : Pour une liste sans ordre spécifique, utilisée avec des puces.
+   - `<ol>` (Ordered List) : Pour une liste avec un ordre spécifique, utilisée avec des numéros.
+
+6) Particularité de la balise `<img>` utilisée :
+     - La ligne `<img src="mon-image.png" alt="Mon image préférée" />` utilise deux attributs importants :
+     - `src` spécifie le chemin de l'image à afficher.
+     - `alt` fournit un texte alternatif qui décrit l'image, ce qui est crucial pour l'accessibilité (aide les utilisateurs qui utilisent des lecteurs d'écran) et pour le SEO, en particulier si l'image ne peut pas être chargée.
